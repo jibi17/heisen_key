@@ -106,7 +106,7 @@ void MX_FREERTOS_Init(void) {
 
   /* Create the queue(s) */
   /* definition and creation of pushButtonQueue */
-  osMessageQDef(pushButtonQueue, 256, uint8_t);
+  osMessageQDef(pushButtonQueue, 256, uint32_t);
   pushButtonQueueHandle = osMessageCreate(osMessageQ(pushButtonQueue), NULL);
 
   /* USER CODE BEGIN RTOS_QUEUES */

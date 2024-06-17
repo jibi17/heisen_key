@@ -57,6 +57,8 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "files.associations": {
     "string.h": "c",
-    "freertos.h": "c"
+    "freertos.h": "c",
+    "cmsis_os.h": "c",
+    "stdint.h": "c"
   }
 }
