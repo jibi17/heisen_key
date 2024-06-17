@@ -1,13 +1,6 @@
 dummy_chest\pushbutton.o: ..\Core\Src\pushButton.c
 dummy_chest\pushbutton.o: ../Core/Inc/pushButton.h
 dummy_chest\pushbutton.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-dummy_chest\pushbutton.o: ../Core/Inc/gpio.h
-dummy_chest\pushbutton.o: ../Core/Inc/main.h
-dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
-dummy_chest\pushbutton.o: ../Core/Inc/stm32h7xx_hal_conf.h
-dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
-dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
-dummy_chest\pushbutton.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Include/core_cm7.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Include/cmsis_version.h
@@ -15,6 +8,12 @@ dummy_chest\pushbutton.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Include/mpu_armv7.h
 dummy_chest\pushbutton.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
+dummy_chest\pushbutton.o: ../Core/Inc/main.h
+dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
+dummy_chest\pushbutton.o: ../Core/Inc/stm32h7xx_hal_conf.h
+dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
+dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
+dummy_chest\pushbutton.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
 dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
 dummy_chest\pushbutton.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
 dummy_chest\pushbutton.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
@@ -59,3 +58,4 @@ dummy_chest\pushbutton.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/sem
 dummy_chest\pushbutton.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 dummy_chest\pushbutton.o: ../Core/Inc/usart.h
 dummy_chest\pushbutton.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+dummy_chest\pushbutton.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

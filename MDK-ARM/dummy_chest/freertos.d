@@ -56,5 +56,4 @@ dummy_chest\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue
 dummy_chest\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 dummy_chest\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 dummy_chest\freertos.o: ../Core/Inc/pushButton.h
-dummy_chest\freertos.o: ../Core/Inc/gpio.h
 dummy_chest\freertos.o: ../Core/Inc/usart.h

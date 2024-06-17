@@ -1,6 +1,7 @@
 #ifndef PUSHBUTTON_H
 #define PUSHBUTTON_H
 #include "stdint.h"
+#include "stm32h743xx.h"
 
 #define button1_PORT GPIOE
 #define button1_PIN GPIO_PIN_0
@@ -48,6 +49,6 @@ extern Button button4;
 extern Button button5;
 
 void button_kernel(Button * button,GPIO_TypeDef *GPIO_port, uint16_t GPIO_Pin);
-void pushButtonQueueProcess();
+void pushButtonQueueProcess(void);
 
 #endif

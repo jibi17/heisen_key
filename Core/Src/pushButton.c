@@ -90,7 +90,7 @@ void pushButtonQueueProcess()
   //记录最大长按时间！
     uint32_t info=0;
     Button tempButton;
-    static uint16_t max_time=0;
+   
     memset(&tempButton,0,sizeof(Button));//初始化变量
     osEvent keyEvent=osMessageGet(pushButtonQueueHandle,0);//先取出来，取出来的是个结构体
 	if(keyEvent.status==osEventMessage)//看看是不是有数据，有数据再打印
@@ -103,7 +103,7 @@ void pushButtonQueueProcess()
                     //下面开始打印检测
                     if(tempButton.button_status==BTN_PUSH_DOWN)
                     {
-                        printf("按钮%d被按下",tempButton.num);//按下
+                        printf("按钮%d被按下\r\n",tempButton.num);//按下
                     }
 
                     if(tempButton.button_status==BTN_HOLD_ON)
