@@ -41,3 +41,5 @@ invoke the button_kernel(Button * button,GPIO_TypeDef *GPIO_port, uint16_t GPIO_
 
 fifth:
 call the pushButtonQueueProcess() in another thread to do what you want to do after the keys is been pushed .
+
+finally use pushButtonQueueProcess() to handle push down 、push up and long push.
